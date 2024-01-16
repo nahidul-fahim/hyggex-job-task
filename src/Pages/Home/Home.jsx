@@ -1,5 +1,6 @@
 import { GoHome, GoChevronRight } from "react-icons/go";
 import Flashcard from "../Flashcard/Flashcard";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
     return (
@@ -18,6 +19,9 @@ const Home = () => {
 
             {/* flashcard section */}
             <Flashcard />
+
+            {/* contact section */}
+            <Contact />
 
         </div>
     );
