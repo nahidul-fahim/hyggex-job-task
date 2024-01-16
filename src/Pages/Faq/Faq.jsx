@@ -14,7 +14,7 @@ const Faq = () => {
 
 
     return (
-        <div className="my-[140px] w-full">
+        <div id="faq" className="my-[140px] w-full">
             <h2 className="gradient-heading text-5xl text-left font-bold uppercase font-main">Faq</h2>
 
             {/* accordion section */}

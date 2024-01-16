@@ -4,7 +4,7 @@ import { TiPlus } from "react-icons/ti";
 
 const Contact = () => {
     return (
-        <div className="mt-80px font-main flex justify-between items-center">
+        <div id="contact" className="mt-100px font-main flex justify-between items-center">
             <img src={contactLogo} alt="" />
 
             <div className="flex justify-center items-center gap-3 cursor-pointer">

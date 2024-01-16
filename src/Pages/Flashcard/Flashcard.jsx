@@ -16,7 +16,7 @@ const Flashcard = () => {
 
 
     return (
-        <div className="mt-14">
+        <div id="flashCard" className="mt-14">
             <h2 className="gradient-heading font-bold font-second text-3xl ">Relations and Functions ( Mathematics )</h2>
 
 

@@ -8,7 +8,7 @@ const Home = () => {
         <div className="p-10">
 
             {/* breadcrumb */}
-            <div className="flex justify-start items-center p-1 text-[18px] font-medium text-lightGray">
+            <div id="home" className="flex justify-start items-center p-1 text-[18px] font-medium text-lightGray">
                 <GoHome />
                 <GoChevronRight />
                 <p>Flashcard</p>
