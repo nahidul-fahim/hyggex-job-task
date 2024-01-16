@@ -10,7 +10,7 @@ export default {
       second: "#2284F1",
       lightGray: "#696671",
       white: "#fff",
-      black: "#000",
+      black: "#28262C",
     },
     extend: {
       fontFamily: {

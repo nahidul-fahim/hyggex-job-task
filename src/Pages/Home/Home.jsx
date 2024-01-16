@@ -1,10 +1,11 @@
 import { GoHome, GoChevronRight } from "react-icons/go";
 import Flashcard from "../Flashcard/Flashcard";
 import Contact from "../Contact/Contact";
+import Faq from "../Faq/Faq";
 
 const Home = () => {
     return (
-        <div className="p-5">
+        <div className="p-10">
 
             {/* breadcrumb */}
             <div className="flex justify-start items-center p-1 text-[18px] font-medium text-lightGray">
@@ -22,6 +23,9 @@ const Home = () => {
 
             {/* contact section */}
             <Contact />
+
+            {/* faq section */}
+            <Faq />
 
         </div>
     );
